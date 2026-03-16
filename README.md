@@ -1,3 +1,4 @@
+![Playwright Tests](https://github.com/devi123saha/playwright-ai-automation-portfolio/actions/workflows/playwright.yml/badge.svg)
 # 🚀 Playwright & AI Automation Portfolio
 
 ## 👤 Project Overview
