@@ -8,4 +8,5 @@ test('login using Page Object Model', async ({ page }) => {
   await loginPage.login('tomsmith', 'SuperSecretPassword!');
   
   await expect(page.getByRole('heading', { name: 'Secure Area', exact: true })).toBeVisible();
+  await expect(page).toHaveScreenshot();
 });
